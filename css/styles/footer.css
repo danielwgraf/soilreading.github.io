@@ -1,0 +1,85 @@
+.footer {
+  height: 25%;
+  background: white;
+  color: white;
+  flex-shrink: 0;
+  /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .footer .links {
+    flex: 1 0 100%; }
+  .footer .icons {
+    margin-bottom: 2em;
+    display: inline-block; }
+    .footer .icons br {
+      display: none; }
+    @media screen and (max-width: 600px) {
+      .footer .icons {
+        margin-top: 6em;
+        margin-bottom: 4em; }
+        .footer .icons br {
+          display: block; } }
+    .footer .icons li {
+      -moz-transition: all .2s ease-in;
+      -o-transition: all .2s ease-in;
+      -webkit-transition: all .2s ease-in;
+      transition: all .2s ease-in;
+      display: inline-block;
+      padding: 0.2em;
+      margin-right: 2.5em;
+      border: 3px solid #A67C52;
+      border-radius: 20%;
+      text-align: center;
+      display: inline-block; }
+      @media screen and (max-width: 600px) {
+        .footer .icons li {
+          margin-bottom: 2.5em; } }
+      @media screen and (max-width: 600px) {
+        .footer .icons li:nth-child(2) {
+          margin-right: 0; } }
+      .footer .icons li:nth-child(5) {
+        margin-right: 0; }
+      .footer .icons li:hover, .footer .icons li:active {
+        background-color: #F00; }
+        .footer .icons li:hover a, .footer .icons li:active a {
+          color: #fff; }
+          .footer .icons li:hover a.icon, .footer .icons li:active a.icon {
+            background-color: #06469F; }
+          .footer .icons li:hover a.icon-search, .footer .icons li:active a.icon-search {
+            background-color: white; }
+          .footer .icons li:hover a.icon-email, .footer .icons li:active a.icon-email {
+            background-color: grey; }
+          .footer .icons li:hover a.icon-github, .footer .icons li:active a.icon-github {
+            background-color: #222; }
+          .footer .icons li:hover a.icon-facebook, .footer .icons li:active a.icon-facebook {
+            background-color: #3765A3; }
+          .footer .icons li:hover a.icon-twitter, .footer .icons li:active a.icon-twitter {
+            background-color: #5EA9DD; }
+          .footer .icons li:hover a.icon-instagram, .footer .icons li:active a.icon-instagram {
+            background-color: #323232; }
+          .footer .icons li:hover a.icon-linkedin, .footer .icons li:active a.icon-linkedin {
+            background-color: #0274B3; }
+      .footer .icons li a {
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+        text-decoration: none;
+        color: #06469F;
+        border: 3px solid #F00;
+        border-radius: 20%;
+        text-align: center;
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        line-height: 50px; }
+        .footer .icons li a .fas {
+          font-size: 1.6em; }
+        .footer .icons li a .fab {
+          font-size: 1.6em; }
+
+/*# sourceMappingURL=footer.css.map */
