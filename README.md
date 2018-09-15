@@ -1,2 +1,2 @@
-# DELABODEGA Website
-This is DELABODEGA, a platform that gives voiceless people an opportunity to speak out about issues in the community.
+# Soil Website
+This is the teaser to the future Soil website
